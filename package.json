@@ -1,0 +1,17 @@
+{
+  "name": "get-links-from-md-jj",
+  "version": "1.0.0",
+  "description": "Biblioteca JS para extrair links de um arquivo MD",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Jéssica Happatsch",
+  "license": "ISC",
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "eslint": "^5.16.0",
+    "mocha": "^6.1.4",
+    "nyc": "^14.1.0"
+  }
+}
