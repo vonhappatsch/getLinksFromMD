@@ -13,6 +13,3 @@ function getLinksFromMD(str) {
   return finalMatches;
 }
 module.exports.getLinksFromMD = getLinksFromMD;
-
-
-
