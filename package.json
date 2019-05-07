@@ -1,6 +1,6 @@
 {
   "name": "getlinksfrommd-jj",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Biblioteca JS para extrair links de um arquivo MD",
   "main": "index.js",
   "scripts": {
