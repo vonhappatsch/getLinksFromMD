@@ -10,7 +10,7 @@ A função retorna uma array de objetos com os links existentes (link e texto) e
 
 ```shell
 
-$  npm install get-links-from-md-jj
+$  npm install getlinksfrommd-jj
 
 ```
 
@@ -18,7 +18,7 @@ $  npm install get-links-from-md-jj
 
 ```node
 
-> const getLinksFromMD = require("get-links-from-md-jj");
+> const getLinksFromMD = require("getlinksfrommd-jj");
 > console.log(getLinksFromMD.getLinksFromMD(`[example](www.example.com) oieeee turu pom? [text](www.link.com)`));
 > // returns "[ { href: 'www.example.com', text: 'example' },
   { href: 'www.link.com', text: 'text' } ]"
