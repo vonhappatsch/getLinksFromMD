@@ -13,3 +13,5 @@ function getLinksFromMD(str) {
   return finalMatches;
 }
 module.exports.getLinksFromMD = getLinksFromMD;
+console.log(getLinksFromMD(`[example](www.example.com) oieeee turu pom? [text](www.link.com)`));
+console.log(getLinksFromMD(`lalalala no link here`));
